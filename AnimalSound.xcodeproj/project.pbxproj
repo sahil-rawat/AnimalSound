@@ -14,6 +14,10 @@
 		F3A182DE23354804003FC741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A182DC23354804003FC741 /* LaunchScreen.storyboard */; };
 		F3A182E923354804003FC741 /* AnimalSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A182E823354804003FC741 /* AnimalSoundTests.swift */; };
 		F3A182F423354804003FC741 /* AnimalSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A182F323354804003FC741 /* AnimalSoundUITests.swift */; };
+		F3A1830523354C04003FC741 /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A1830123354C04003FC741 /* SimpleSound.swift */; };
+		F3A1830623354C04003FC741 /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F3A1830223354C04003FC741 /* woof.m4a */; };
+		F3A1830723354C04003FC741 /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F3A1830323354C04003FC741 /* moo.m4a */; };
+		F3A1830823354C04003FC741 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F3A1830423354C04003FC741 /* meow.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F3A182EF23354804003FC741 /* AnimalSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A182F323354804003FC741 /* AnimalSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSoundUITests.swift; sourceTree = "<group>"; };
 		F3A182F523354804003FC741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A1830123354C04003FC741 /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		F3A1830223354C04003FC741 /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
+		F3A1830323354C04003FC741 /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
+		F3A1830423354C04003FC741 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 				F3A182E723354804003FC741 /* AnimalSoundTests */,
 				F3A182F223354804003FC741 /* AnimalSoundUITests */,
 				F3A182D123354803003FC741 /* Products */,
+				F3A1830423354C04003FC741 /* meow.m4a */,
+				F3A1830323354C04003FC741 /* moo.m4a */,
+				F3A1830123354C04003FC741 /* SimpleSound.swift */,
+				F3A1830223354C04003FC741 /* woof.m4a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,8 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3A182DE23354804003FC741 /* LaunchScreen.storyboard in Resources */,
+				F3A1830723354C04003FC741 /* moo.m4a in Resources */,
 				F3A182DB23354804003FC741 /* Assets.xcassets in Resources */,
 				F3A182D923354803003FC741 /* Main.storyboard in Resources */,
+				F3A1830823354C04003FC741 /* meow.m4a in Resources */,
+				F3A1830623354C04003FC741 /* woof.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A1830523354C04003FC741 /* SimpleSound.swift in Sources */,
 				F3A182D623354803003FC741 /* ViewController.swift in Sources */,
 				F3A182D423354803003FC741 /* AppDelegate.swift in Sources */,
 			);
